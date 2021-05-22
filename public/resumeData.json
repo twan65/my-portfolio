@@ -1,46 +1,25 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
+    "name":"Anveloper",
+    "description":"諦めなければできるという信念を持って勉強し続けてるエンジニアです。",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"「諦めなければできる」という信念を持って開発を行っています。新しい言語や技術を勉強することが好きで、IT書籍を読むことが好きです。",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "email": "cx.twan65@gmail.com",
+    "github":"https://github.com/twan65",
+    "blog":"https://anveloper.wordpress.com/",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "city":"東京都"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
     "social":[
       {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
-        "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
+        "name":"wordpress",
+        "url":"https://anveloper.wordpress.com/",
+        "className":"fa fa-wordpress"
       },
       {
         "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/twan65",
         "className":"fa fa-github"
       }
     ]
@@ -49,15 +28,15 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
+        "school":"University",
+        "degree":"Induk University Computer Electronics",
         "graduated":"April 2017",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
+        "school":"Programming School",
+        "degree":"HTML、CSS、JAVA、Spring、RDBMS、ETC...",
+        "graduated":"2016年3月〜2017年1月",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],
@@ -77,32 +56,36 @@
     ],
     "skills":[
       {
-        "name":"Python",
-        "level":"60%"
-      },
-      {
-        "name":"VueJs",
-        "level":"55%"
+        "name":"Golang",
+        "level":"50%"
       },
       {
         "name":"ReactJs",
-        "level":"50%"
+        "level":"60%"
       },
       {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"PHP",
-        "level":"80%"
-      },
-      {
-        "name":"Swift",
-        "level":"50%"
+        "name":"Javascript",
+        "level":"70%"
       },
       {
         "name":"JAVA",
         "level":"80%"
+      },
+      {
+        "name":"Spring",
+        "level":"80%"
+      },
+      {
+        "name":"RDBMS",
+        "level":"70%"
+      },
+      {
+        "name":"AWS",
+        "level":"40%"
+      },
+      {
+        "name":"Dcoker",
+        "level":"50%"
       }
     ]
   },
