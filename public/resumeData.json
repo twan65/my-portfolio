@@ -30,27 +30,57 @@
       {
         "school":"University",
         "degree":"Induk University Computer Electronics",
-        "graduated":"April 2017",
+        "graduated":"2009/3〜2015/2",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       },
       {
         "school":"Programming School",
         "degree":"HTML、CSS、JAVA、Spring、RDBMS、ETC...",
-        "graduated":"2016年3月〜2017年1月",
+        "graduated":"2016/3〜2017/1",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
+        "title":"保険管理システム",
+        "position":"SE",
+        "years":"2021/02/01 - 現在",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
+        "title":"日本生活衛生関連管理システム",
+        "position":"SE",
+        "years":"2020/11/01 - 2021/01/31",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "title":"ファンクラブ動画配信サービス",
+        "position":"SE",
+        "years":"2020/03/01 - 2020/08/30",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "title":"メンバーコミュニティサイト",
+        "position":"PG",
+        "years":"2019/11/01 - 2020/02/29",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "title":"特許庁向け業務システム",
+        "position":"PG",
+        "years":"2019/04/01 - 2019/09/30",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "title":"地方県庁警察庁新システム",
+        "position":"PG",
+        "years":"2017/02/01 - 2019/03/01",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "title":"無人ホテル管理システム",
+        "position":"PG",
+        "years":"2016/03/01 - 2017/01/01",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       }
     ],
@@ -62,6 +92,10 @@
       {
         "name":"ReactJs",
         "level":"60%"
+      },
+      {
+        "name":"HTML",
+        "level":"70%"
       },
       {
         "name":"Javascript",
