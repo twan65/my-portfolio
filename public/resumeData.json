@@ -10,19 +10,7 @@
     "blog":"https://anveloper.wordpress.com/",
     "address":{
       "city":"東京都"
-    },
-    "social":[
-      {
-        "name":"wordpress",
-        "url":"https://anveloper.wordpress.com/",
-        "className":"fa fa-wordpress"
-      },
-      {
-        "name":"github",
-        "url":"https://github.com/twan65",
-        "className":"fa fa-github"
-      }
-    ]
+    }
   },
   "resume":{
     "skillmessage":"現在の自分のスキルは以下になります。",
