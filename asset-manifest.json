@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/anveloperprotfolio/static/css/main.bab0b925.chunk.css",
+    "main.js": "/anveloperprotfolio/static/js/main.b5b4a3d7.chunk.js",
+    "main.js.map": "/anveloperprotfolio/static/js/main.b5b4a3d7.chunk.js.map",
+    "runtime-main.js": "/anveloperprotfolio/static/js/runtime-main.d275f881.js",
+    "runtime-main.js.map": "/anveloperprotfolio/static/js/runtime-main.d275f881.js.map",
+    "static/js/2.f9e9044a.chunk.js": "/anveloperprotfolio/static/js/2.f9e9044a.chunk.js",
+    "static/js/2.f9e9044a.chunk.js.map": "/anveloperprotfolio/static/js/2.f9e9044a.chunk.js.map",
+    "static/js/3.ec1d5e77.chunk.js": "/anveloperprotfolio/static/js/3.ec1d5e77.chunk.js",
+    "static/js/3.ec1d5e77.chunk.js.map": "/anveloperprotfolio/static/js/3.ec1d5e77.chunk.js.map",
+    "index.html": "/anveloperprotfolio/index.html",
+    "static/css/main.bab0b925.chunk.css.map": "/anveloperprotfolio/static/css/main.bab0b925.chunk.css.map",
+    "static/js/2.f9e9044a.chunk.js.LICENSE.txt": "/anveloperprotfolio/static/js/2.f9e9044a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d275f881.js",
+    "static/js/2.f9e9044a.chunk.js",
+    "static/css/main.bab0b925.chunk.css",
+    "static/js/main.b5b4a3d7.chunk.js"
+  ]
+}
