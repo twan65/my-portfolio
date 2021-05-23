@@ -25,19 +25,25 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"現在の自分のスキルは以下になります。",
     "education":[
       {
-        "school":"University",
+        "school":"大学",
         "degree":"Induk University Computer Electronics",
         "graduated":"2009/3〜2015/2",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"コンピューター基礎知識、C言語、ロボットプログラミング、電子回路、ETC...について教えてもらいました。"
       },
       {
-        "school":"Programming School",
+        "school":"プログラミングスクール",
         "degree":"HTML、CSS、JAVA、Spring、RDBMS、ETC...",
         "graduated":"2016/3〜2017/1",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"Java、Spring、HTML、CSS、Javascript、RDBMS、ETC...の基礎知識や実務で使われるスキルを教えてもらいました。"
+      },
+      {
+        "school":"CX勉強会",
+        "degree":"オンライン・オフライン勉強会",
+        "graduated":"2017/9〜現在",
+        "description":"CX（challenge X（未知数））という勉強会を創り、現在までメンバーたちと勉強をしています。主に日本語やIT知識などを共有しています。"
       }
     ],
     "work":[
@@ -47,7 +53,7 @@
         "years":"2021/02/01 - 現在",
         "process":"要件定義 - 基本設計 - 実装・単体",
         "tech":"Java8、Spring、Typescript、React、MySQL、Grpc、Git、AWS",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"フロントエンドの開発サポート（レビュー）とバックエンドの基盤設計、基盤開発（Logging、Securityなど）を行いました。"
       },
       {
         "title":"日本生活衛生関連管理システム",
@@ -55,7 +61,7 @@
         "years":"2020/11/01 - 2021/01/31",
         "process":"詳細設計 - 実装・単体 - 結合テスト",
         "tech":"Java11、Spring、Javascript、Jquery、Tymeleaf、MySQL、Docker、Git、AWS",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"管理サイトの詳細設計から画面やサーバーサイド、バッチの開発を行いました。Doma2を使いDBとの連動をしました。"
       },
       {
         "title":"ファンクラブ動画配信サービス",
@@ -63,7 +69,7 @@
         "years":"2020/03/01 - 2020/08/30",
         "process":"調査分析 - 要件定義 - 基本設計",
         "tech":"cacoo",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"ファンクラブ動画配信サービスのフロントエンド技術分析から技術選定、要件定義、基本設計を行いました。"
       },
       {
         "title":"メンバーコミュニティサイト",
@@ -71,7 +77,7 @@
         "years":"2019/11/01 - 2020/02/29",
         "process":"調査分析 - 実装・単体 - 結合テスト",
         "tech":"Java11、Spring、Javascript、Jquery、Tymeleaf、MySQL、Docker、Git、AWS",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"管理サイトのサーバーサイド開発（MPA）とフロントエンドの共通モジュールの設計とJavascript、Jqueryで開発を行いました。"
       },
       {
         "title":"特許庁向け業務システム",
@@ -79,7 +85,7 @@
         "years":"2019/04/01 - 2019/09/30",
         "process":"実装・単体",
         "tech":"Java8、Spring、VISC、MySQL",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"VISCというツールを使い、バックエンド（Java）のビジネスロジックを開発しました。特にJunitを使った単体テストをきっちりとしました。"
       },
       {
         "title":"地方県庁警察庁新システム",
@@ -87,7 +93,7 @@
         "years":"2017/02/01 - 2019/03/01",
         "process":"詳細設計 - 実装・単体 - 結合テスト - 保守・運用",
         "tech":"Java8、Spring、Typescript、React、Oracle、PL/SQL、Git",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"フルスタックエンジニアとしてTypescript+Reactでフロントエンドを開発し、サーバーサイドのビジネスロジックを開発しました。この時はレビュアーとして活動してPL/SQLを使ってSQLパフォーマンス向上に力を入れていました。"
       },
       {
         "title":"無人ホテル管理システム",
@@ -95,7 +101,7 @@
         "years":"2016/03/01 - 2017/01/01",
         "process":"要件定義 - 基本設計 - 実装・単体 - 結合テスト",
         "tech":"Java、Spring、Javascript、JSP、MySQL、Git",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"プログラミングスクールでの初めてのプロジェクトであり、IT知識やJava、Springなどどうすれば正常にパフォーマンスよく動くのかを考えました。スクールでのプロジェクトなので品質はよくなかったかもしれないが、このときこそが今の自分があるというプロジェクトです。"
       }
     ],
     "skills":[
@@ -134,82 +140,42 @@
       {
         "name":"Dcoker",
         "level":"50%"
+      },
+      {
+        "name":"ETC（Jquery、PL/SQL、Git、JPA、Flutter...）",
+        "level":"50%"
       }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Amazon Web Service",
+        "image":"AWS.jpg"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Circle CI/CD",
+        "image":"circleci.jpg"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title":"Docker",
+        "image":"Docker.jpg"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Kubernetes",
+        "image":"Kubernetes.jpg"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"Spring Data JPA",
+        "image":"jpa.jpg"
       },
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"React.js",
+        "image":"React.jpg"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Node.js",
+        "image":"Nodejs.jpg"
       }
     ]
   }
