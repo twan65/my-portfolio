@@ -21,11 +21,11 @@ class Portfolio extends Component {
     });
 
     return (
-      <section id="portfolio">
+      <section id="interest-skill">
         <Fade left duration={1000} distance="40px">
           <div className="row">
             <div className="twelve columns collapsed">
-              <h1>最近、興味を持っている技術</h1>
+              <h1>最近、興味を持っている技術い。</h1>
 
               <div
                 id="portfolio-wrapper"
