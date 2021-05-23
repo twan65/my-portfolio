@@ -45,42 +45,56 @@
         "title":"保険管理システム",
         "position":"SE",
         "years":"2021/02/01 - 現在",
+        "process":"要件定義 - 基本設計 - 実装・単体",
+        "tech":"Java8、Spring、Typescript、React、MySQL、Grpc、Git、AWS",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       },
       {
         "title":"日本生活衛生関連管理システム",
         "position":"SE",
         "years":"2020/11/01 - 2021/01/31",
+        "process":"詳細設計 - 実装・単体 - 結合テスト",
+        "tech":"Java11、Spring、Javascript、Jquery、Tymeleaf、MySQL、Docker、Git、AWS",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       },
       {
         "title":"ファンクラブ動画配信サービス",
         "position":"SE",
         "years":"2020/03/01 - 2020/08/30",
+        "process":"調査分析 - 要件定義 - 基本設計",
+        "tech":"cacoo",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       },
       {
         "title":"メンバーコミュニティサイト",
         "position":"PG",
         "years":"2019/11/01 - 2020/02/29",
+        "process":"調査分析 - 実装・単体 - 結合テスト",
+        "tech":"Java11、Spring、Javascript、Jquery、Tymeleaf、MySQL、Docker、Git、AWS",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       },
       {
         "title":"特許庁向け業務システム",
         "position":"PG",
         "years":"2019/04/01 - 2019/09/30",
+        "process":"実装・単体",
+        "tech":"Java8、Spring、VISC、MySQL",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       },
       {
         "title":"地方県庁警察庁新システム",
         "position":"PG",
         "years":"2017/02/01 - 2019/03/01",
+        "process":"詳細設計 - 実装・単体 - 結合テスト - 保守・運用",
+        "tech":"Java8、Spring、Typescript、React、Oracle、PL/SQL、Git",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       },
       {
         "title":"無人ホテル管理システム",
         "position":"PG",
         "years":"2016/03/01 - 2017/01/01",
+        "process":"要件定義 - 基本設計 - 実装・単体 - 結合テスト",
+        "tech":"Java、Spring、Javascript、JSP、MySQL、Git",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       }
     ],
