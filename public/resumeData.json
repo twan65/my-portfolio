@@ -1,169 +1,185 @@
 {
   "main": {
-    "name":"Anveloper",
-    "description":"諦めなければできるという信念を持って勉強し続けているエンジニアです。",
-    "image":"profilepic.jpg",
-    "bio":"「諦めなければできる」という信念を持って開発を行っています。新しい言語や技術を勉強することが好きで、IT書籍を読むことが好きです。",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "name": "Anveloper",
+    "description": "諦めなければできるという信念を持って勉強し続けているエンジニアです。",
+    "image": "profilepic.jpg",
+    "bio": "「諦めなければできる」という信念を持って開発を行っています。新しい言語や技術を勉強することが好きで、IT書籍を読むことが好きです。",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "cx.twan65@gmail.com",
-    "github":"https://github.com/twan65",
-    "blog":"https://anveloper.wordpress.com/",
-    "address":{
-      "city":"東京都"
+    "github": "https://github.com/twan65",
+    "blog": "https://anveloper.wordpress.com/",
+    "address": {
+      "city": "東京都"
     }
   },
-  "resume":{
-    "skillmessage":"現在の自分のスキルは以下になります。",
-    "education":[
+  "resume": {
+    "skillmessage": "現在の自分のスキルは以下になります。",
+    "education": [
       {
-        "school":"大学",
-        "degree":"Induk University Computer Electronics",
-        "graduated":"2009/3〜2015/2",
-        "description":"コンピューター基礎知識、C言語、ロボットプログラミング、電子回路、ETC...について教えてもらいました。"
+        "school": "大学",
+        "degree": "Induk University Computer Electronics",
+        "graduated": "2009/3〜2015/2",
+        "description": "コンピューター基礎知識、C言語、ロボットプログラミング、電子回路、ETC...について教えてもらいました。"
       },
       {
-        "school":"プログラミングスクール",
-        "degree":"HTML、CSS、JAVA、Spring、RDBMS、ETC...",
-        "graduated":"2016/3〜2017/1",
-        "description":"Java、Spring、HTML、CSS、Javascript、RDBMS、ETC...の基礎知識や実務で使われるスキルを教えてもらいました。"
+        "school": "プログラミングスクール",
+        "degree": "HTML、CSS、JAVA、Spring、RDBMS、ETC...",
+        "graduated": "2016/3〜2017/1",
+        "description": "Java、Spring、HTML、CSS、Javascript、RDBMS、ETC...の基礎知識や実務で使われるスキルを教えてもらいました。"
       },
       {
-        "school":"CX勉強会",
-        "degree":"オンライン・オフライン勉強会",
-        "graduated":"2017/9〜現在",
-        "description":"CX（challenge X（未知数））という勉強会を創り、現在までメンバーたちと勉強をしています。主に日本語やIT知識などを共有しています。"
+        "school": "CX勉強会",
+        "degree": "オンライン・オフライン勉強会",
+        "graduated": "2017/9〜現在",
+        "description": "CX（challenge X（未知数））という勉強会を創り、現在までメンバーたちと勉強をしています。主に日本語やIT知識などを共有しています。"
       }
     ],
-    "work":[
+    "work": [
       {
-        "title":"保険管理システム",
-        "position":"SE",
-        "years":"2021/02/01 - 現在",
-        "process":"要件定義 - 基本設計 - 実装・単体",
-        "tech":"Java8、Spring、Typescript、React、MySQL、Grpc、Git、AWS",
-        "description":"フロントエンドの開発サポート（レビュー）とバックエンドの基盤設計、基盤開発（Logging、Securityなど）を行いました。"
+        "title": "保険有料サービス（Web）",
+        "position": "PM/PL",
+        "years": "2021/09/01 - 現在",
+        "process": "要件定義 - 基本設計 - 詳細設計 - 実装（基盤）",
+        "tech": "Java11、Spring、Javascript、Jquery、Tymeleaf、MySQL、Docker、Git、AWS",
+        "description": "PMとしてお客様の要件をヒアリングし、実現することだけを考えています。なお、楽に開発ができるように設計（基盤、URIなど）や基盤実装などを行っております。"
       },
       {
-        "title":"日本生活衛生関連管理システム",
-        "position":"SE",
-        "years":"2020/11/01 - 2021/01/31",
-        "process":"詳細設計 - 実装・単体 - 結合テスト",
-        "tech":"Java11、Spring、Javascript、Jquery、Tymeleaf、MySQL、Docker、Git、AWS",
-        "description":"管理サイトの詳細設計から画面やサーバーサイド、バッチの開発を行いました。Doma2を使いDBとの連動をしました。"
+        "title": "大手コンビニのキャンペーンサイト",
+        "position": "SE",
+        "years": "2021/06/01 - 2021/07/30",
+        "process": "詳細設計 - 実装・単体",
+        "tech": "Java11、Spring、Javascript、Jquery、Tymeleaf、MySQL、Docker、Git、AWS",
+        "description": "携帯上のブラウザで動作する画面、バックエンドロジックを開発しました。Junitを使った単体テストを細かくしたので、結合テストでのバグはほぼなかったです。"
       },
       {
-        "title":"ファンクラブ動画配信サービス",
-        "position":"SE",
-        "years":"2020/03/01 - 2020/08/30",
-        "process":"調査分析 - 要件定義 - 基本設計",
-        "tech":"cacoo",
-        "description":"ファンクラブ動画配信サービスのフロントエンド技術分析から技術選定、要件定義、基本設計を行いました。"
+        "title": "保険管理システム",
+        "position": "SE",
+        "years": "2021/02/01 - 2021/05/31",
+        "process": "要件定義 - 基本設計 - 実装・単体",
+        "tech": "Java8、Spring、Typescript、React、MySQL、Grpc、Git、AWS",
+        "description": "フロントエンドの開発サポート（レビュー）とバックエンドの基盤設計、基盤開発（Logging、Securityなど）を行いました。"
       },
       {
-        "title":"メンバーコミュニティサイト",
-        "position":"PG",
-        "years":"2019/11/01 - 2020/02/29",
-        "process":"調査分析 - 実装・単体 - 結合テスト",
-        "tech":"Java11、Spring、Javascript、Jquery、Tymeleaf、MySQL、Docker、Git、AWS",
-        "description":"管理サイトのサーバーサイド開発（MPA）とフロントエンドの共通モジュールの設計とJavascript、Jqueryで開発を行いました。"
+        "title": "日本生活衛生関連管理システム",
+        "position": "SE",
+        "years": "2020/11/01 - 2021/01/31",
+        "process": "詳細設計 - 実装・単体 - 結合テスト",
+        "tech": "Java11、Spring、Javascript、Jquery、Tymeleaf、MySQL、Docker、Git、AWS",
+        "description": "管理サイトの詳細設計から画面やサーバーサイド、バッチの開発を行いました。Doma2を使いDBとの連動をしました。"
       },
       {
-        "title":"特許庁向け業務システム",
-        "position":"PG",
-        "years":"2019/04/01 - 2019/09/30",
-        "process":"実装・単体",
-        "tech":"Java8、Spring、VISC、MySQL",
-        "description":"VISCというツールを使い、バックエンド（Java）のビジネスロジックを開発しました。特にJunitを使った単体テストをきっちりとしました。"
+        "title": "ファンクラブ動画配信サービス",
+        "position": "SE",
+        "years": "2020/03/01 - 2020/08/30",
+        "process": "調査分析 - 要件定義 - 基本設計",
+        "tech": "cacoo",
+        "description": "ファンクラブ動画配信サービスのフロントエンド技術分析から技術選定、要件定義、基本設計を行いました。"
       },
       {
-        "title":"地方県庁警察庁新システム",
-        "position":"PG",
-        "years":"2017/02/01 - 2019/03/01",
-        "process":"詳細設計 - 実装・単体 - 結合テスト - 保守・運用",
-        "tech":"Java8、Spring、Typescript、React、Oracle、PL/SQL、Git",
-        "description":"フルスタックエンジニアとしてTypescript+Reactでフロントエンドを開発し、サーバーサイドのビジネスロジックを開発しました。この時はレビュアーとして活動してPL/SQLを使ってSQLパフォーマンス向上に力を入れていました。"
+        "title": "メンバーコミュニティサイト",
+        "position": "PG",
+        "years": "2019/11/01 - 2020/02/29",
+        "process": "調査分析 - 実装・単体 - 結合テスト",
+        "tech": "Java11、Spring、Javascript、Jquery、Tymeleaf、MySQL、Docker、Git、AWS",
+        "description": "管理サイトのサーバーサイド開発（MPA）とフロントエンドの共通モジュールの設計とJavascript、Jqueryで開発を行いました。"
       },
       {
-        "title":"無人ホテル管理システム",
-        "position":"PG",
-        "years":"2016/03/01 - 2017/01/01",
-        "process":"要件定義 - 基本設計 - 実装・単体 - 結合テスト",
-        "tech":"Java、Spring、Javascript、JSP、MySQL、Git",
-        "description":"プログラミングスクールでの初めてのプロジェクトであり、IT知識やJava、Springなどどうすれば正常にパフォーマンスよく動くのかを考えました。スクールでのプロジェクトなので品質はよくなかったかもしれないが、このときこそが今の自分があるというプロジェクトです。"
+        "title": "特許庁向け業務システム",
+        "position": "PG",
+        "years": "2019/04/01 - 2019/09/30",
+        "process": "実装・単体",
+        "tech": "Java8、Spring、VISC、MySQL",
+        "description": "VISCというツールを使い、バックエンド（Java）のビジネスロジックを開発しました。特にJunitを使った単体テストをきっちりとしました。"
+      },
+      {
+        "title": "地方県庁警察庁新システム",
+        "position": "PG",
+        "years": "2017/02/01 - 2019/03/01",
+        "process": "詳細設計 - 実装・単体 - 結合テスト - 保守・運用",
+        "tech": "Java8、Spring、Typescript、React、Oracle、PL/SQL、Git",
+        "description": "フルスタックエンジニアとしてTypescript+Reactでフロントエンドを開発し、サーバーサイドのビジネスロジックを開発しました。この時はレビュアーとして活動してPL/SQLを使ってSQLパフォーマンス向上に力を入れていました。"
+      },
+      {
+        "title": "無人ホテル管理システム",
+        "position": "PG",
+        "years": "2016/03/01 - 2017/01/01",
+        "process": "要件定義 - 基本設計 - 実装・単体 - 結合テスト",
+        "tech": "Java、Spring、Javascript、JSP、MySQL、Git",
+        "description": "プログラミングスクールでの初めてのプロジェクトであり、IT知識やJava、Springなどどうすれば正常にパフォーマンスよく動くのかを考えました。スクールでのプロジェクトなので品質はよくなかったかもしれないが、このときこそが今の自分があるというプロジェクトです。"
       }
     ],
-    "skills":[
+    "skills": [
       {
-        "name":"Golang",
-        "level":"50%"
+        "name": "Golang",
+        "level": "50%"
       },
       {
-        "name":"ReactJs",
-        "level":"60%"
+        "name": "ReactJs",
+        "level": "60%"
       },
       {
-        "name":"HTML",
-        "level":"70%"
+        "name": "HTML",
+        "level": "70%"
       },
       {
-        "name":"Javascript",
-        "level":"70%"
+        "name": "Javascript",
+        "level": "70%"
       },
       {
-        "name":"JAVA",
-        "level":"80%"
+        "name": "JAVA",
+        "level": "80%"
       },
       {
-        "name":"Spring",
-        "level":"80%"
+        "name": "Spring",
+        "level": "80%"
       },
       {
-        "name":"RDBMS",
-        "level":"70%"
+        "name": "RDBMS",
+        "level": "70%"
       },
       {
-        "name":"AWS",
-        "level":"40%"
+        "name": "AWS",
+        "level": "40%"
       },
       {
-        "name":"Dcoker",
-        "level":"50%"
+        "name": "Dcoker",
+        "level": "50%"
       },
       {
-        "name":"ETC（Jquery、PL/SQL、Git、JPA、Flutter...）",
-        "level":"50%"
+        "name": "ETC（Jquery、PL/SQL、Git、JPA、Flutter...）",
+        "level": "50%"
       }
     ]
   },
-  "portfolio":{
+  "portfolio": {
     "projects": [
       {
-        "title":"Amazon Web Service",
-        "image":"AWS.jpg"
+        "title": "Amazon Web Service",
+        "image": "AWS.jpg"
       },
       {
-        "title":"Circle CI/CD",
-        "image":"circleci.jpg"
+        "title": "Circle CI/CD",
+        "image": "circleci.jpg"
       },
       {
-        "title":"Docker",
-        "image":"Docker.jpg"
+        "title": "Docker",
+        "image": "Docker.jpg"
       },
       {
-        "title":"Kubernetes",
-        "image":"Kubernetes.jpg"
+        "title": "Kubernetes",
+        "image": "Kubernetes.jpg"
       },
       {
-        "title":"Spring Data JPA",
-        "image":"jpa.jpg"
+        "title": "Spring Data JPA",
+        "image": "jpa.jpg"
       },
       {
-        "title":"React.js",
-        "image":"React.jpg"
+        "title": "React.js",
+        "image": "React.jpg"
       },
       {
-        "title":"Node.js",
-        "image":"Nodejs.jpg"
+        "title": "Node.js",
+        "image": "Nodejs.jpg"
       }
     ]
   }
