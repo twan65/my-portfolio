@@ -47,6 +47,7 @@ header:before {
   vertical-align: middle;
   height: 100%;
 }
+
 header .banner {
   display: inline-block;
   vertical-align: middle;
@@ -59,22 +60,26 @@ header .banner {
 header .banner-text {
   width: 100%;
 }
+
 header .banner-text h1 {
   font: 90px/1.1em "opensans-bold", sans-serif;
   color: #fff;
   letter-spacing: -2px;
   margin: 0 auto 18px auto;
 }
+
 header .banner-text h3 {
   font: 18px/1.9em "librebaskerville-regular", serif;
   color: #ddd;
   margin: 0 auto;
   width: 70%;
 }
+
 header .banner-text h3 span,
 header .banner-text h3 a {
   color: #fff;
 }
+
 header .banner-text hr {
   width: 60%;
   margin: 18px auto 24px auto;
@@ -88,14 +93,17 @@ header .social {
   padding: 0;
   font-size: 30px;
 }
+
 header .social li {
   display: inline-block;
   margin: 0 15px;
   padding: 0;
 }
+
 header .social li a {
   color: #fff;
 }
+
 header .social li a:hover {
   color: #0762f9;
 }
@@ -120,6 +128,7 @@ header .scrolldown a {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
 header .scrolldown a:hover {
   color: #0762f9;
 }
@@ -147,12 +156,13 @@ header .scrolldown a:hover {
   left: 0;
   top: 0;
 }
+
 .opaque {
   background-color: #333;
 }
 
 /* hide toggle button */
-#nav-wrap > a.mobile-btn {
+#nav-wrap>a.mobile-btn {
   display: none;
 }
 
@@ -163,6 +173,7 @@ ul#nav {
   /* center align the menu */
   text-align: center;
 }
+
 ul#nav li {
   position: relative;
   list-style: none;
@@ -191,6 +202,7 @@ ul#nav li a {
 ul#nav li a:active {
   background-color: transparent !important;
 }
+
 ul#nav li.current a {
   color: #fe6928;
 }
@@ -210,6 +222,7 @@ ul#nav li.current a {
 #about a:visited {
   color: #fff;
 }
+
 #about a:hover,
 #about a:focus {
   color: #0762f9;
@@ -220,34 +233,42 @@ ul#nav li.current a {
   color: #fff;
   margin-bottom: 12px;
 }
+
 #about p {
   line-height: 30px;
   color: #ccc;
 }
+
 #about .profile-pic {
   position: relative;
   width: 120px;
   height: 120px;
   border-radius: 100%;
 }
+
 #about .contact-details {
   width: 41.66667%;
 }
+
 #about .download {
   width: 58.33333%;
   padding-top: 6px;
 }
+
 #about .main-col {
   padding-right: 5%;
 }
+
 #about .download .button {
   margin-top: 6px;
   background: #444;
 }
+
 #about .download .button:hover {
   background: #fff;
   color: #2b2b2b;
 }
+
 #about .download .button i {
   margin-right: 15px;
   font-size: 20px;
@@ -268,6 +289,7 @@ ul#nav li.current a {
 #resume a:visited {
   color: #0762f9;
 }
+
 #resume a:hover,
 #resume a:focus {
   color: #313131;
@@ -278,10 +300,18 @@ ul#nav li.current a {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
 #resume h1 span {
   border-bottom: 3px solid #0762f9;
   padding-bottom: 6px;
 }
+
+#resume .division {
+  margin-bottom: 48px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
 #resume h3 {
   font: 25px/30px "opensans-bold", sans-serif;
 }
@@ -289,6 +319,7 @@ ul#nav li.current a {
 #resume .header-col {
   padding-top: 9px;
 }
+
 #resume .main-col {
   padding-right: 10%;
 }
@@ -299,16 +330,19 @@ ul#nav li.current a {
   padding-bottom: 24px;
   border-bottom: 1px solid #e8e8e8;
 }
+
 #resume .info {
   font: 16px/24px "librebaskerville-italic", serif;
   color: #6e7881;
   margin-bottom: 18px;
   margin-top: 9px;
 }
+
 #resume .info span {
   margin-right: 5px;
   margin-left: 5px;
 }
+
 #resume .date {
   font: 15px/24px "opensans-regular", sans-serif;
   margin-top: 6px;
@@ -324,10 +358,12 @@ ul#nav li.current a {
   padding: 0;
   text-align: left;
 }
+
 .bars .skills {
   margin-top: 36px;
   list-style: none;
 }
+
 .bars li {
   position: relative;
   margin-bottom: 60px;
@@ -335,6 +371,7 @@ ul#nav li.current a {
   height: 42px;
   border-radius: 0px;
 }
+
 .bars li em {
   font: 15px "opensans-bold", sans-serif;
   color: #313131;
@@ -344,6 +381,7 @@ ul#nav li.current a {
   position: relative;
   top: -36px;
 }
+
 .bar-expand {
   position: absolute;
   left: 0;
@@ -357,6 +395,7 @@ ul#nav li.current a {
   line-height: 42px;
   border-radius: 0px;
 }
+
 /*
 .git {
   	-moz-animation: git 2s ease;
@@ -454,6 +493,7 @@ ul#nav li.current a {
   padding-top: 90px;
   padding-bottom: 60px;
 }
+
 #interest-skill h1 {
   font: 15px/24px "opensans-semibold", sans-serif;
   text-transform: uppercase;
@@ -467,6 +507,7 @@ ul#nav li.current a {
 #interest-skill-wrapper .columns {
   margin-bottom: 36px;
 }
+
 .interest-skill-item .item-wrap {
   background: #fff;
   overflow: hidden;
@@ -478,6 +519,7 @@ ul#nav li.current a {
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
 .interest-skill-item .item-wrap a {
   display: block;
   cursor: pointer;
@@ -502,6 +544,7 @@ ul#nav li.current a {
 
   background: url(../images/overlay-bg.png) repeat;
 }
+
 .interest-skill-item .item-wrap .link-icon {
   display: block;
   color: #fff;
@@ -526,16 +569,20 @@ ul#nav li.current a {
   margin-left: -15px;
   margin-top: -15px;
 }
+
 .interest-skill-item .item-wrap img {
   vertical-align: bottom;
 }
+
 .interest-skill-item .interest-skill-item-meta {
   padding: 18px;
 }
+
 .interest-skill-item .interest-skill-item-meta h5 {
   font: 14px/21px "opensans-bold", sans-serif;
   color: #fff;
 }
+
 .interest-skill-item .interest-skill-item-meta p {
   font: 12px/18px "opensans-light", sans-serif;
   color: #c6c7c7;
@@ -548,6 +595,7 @@ ul#nav li.current a {
   -moz-opacity: 1;
   filter: alpha(opacity=100);
 }
+
 .interest-skill-item:hover .link-icon {
   opacity: 1;
   -moz-opacity: 1;
@@ -561,19 +609,23 @@ ul#nav li.current a {
   position: relative;
   margin: 0 auto;
 }
+
 .popup-modal .description-box {
   padding: 12px 36px 18px 36px;
 }
+
 .popup-modal .description-box h4 {
   font: 15px/24px "opensans-bold", sans-serif;
   margin-bottom: 12px;
   color: #111;
 }
+
 .popup-modal .description-box p {
   font: 14px/24px "opensans-regular", sans-serif;
   color: #a1a1a1;
   margin-bottom: 12px;
 }
+
 .popup-modal .description-box .categories {
   font: 11px/21px "opensans-light", sans-serif;
   color: #a1a1a1;
@@ -582,14 +634,17 @@ ul#nav li.current a {
   display: block;
   text-align: left;
 }
+
 .popup-modal .description-box .categories i {
   margin-right: 8px;
 }
+
 .popup-modal .link-box {
   padding: 18px 36px;
   background: #111;
   text-align: left;
 }
+
 .popup-modal .link-box a {
   color: #fff;
   font: 11px/21px "opensans-bold", sans-serif;
@@ -597,9 +652,11 @@ ul#nav li.current a {
   letter-spacing: 3px;
   cursor: pointer;
 }
+
 .popup-modal a:hover {
   color: #00cccc;
 }
+
 .popup-modal a.popup-modal-dismiss {
   margin-left: 24px;
 }
@@ -616,10 +673,12 @@ ul#nav li.current a {
   -ms-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
 }
+
 /* content fadein */
 .mfp-fade.mfp-wrap.mfp-ready .mfp-content .popup-modal {
   opacity: 1;
 }
+
 /* content fadeout */
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
   opacity: 0;
@@ -634,15 +693,18 @@ ul#nav li.current a {
   padding-top: 66px;
   padding-bottom: 48px;
 }
+
 #call-to-action h1 {
   font: 18px/24px "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #fff;
 }
+
 #call-to-action h1 span {
   display: none;
 }
+
 #call-to-action .header-col h1:before {
   font-family: "FontAwesome";
   content: "\f0ac";
@@ -653,21 +715,26 @@ ul#nav li.current a {
   float: left;
   color: #fff;
 }
+
 #call-to-action .action {
   margin-top: 12px;
 }
+
 #call-to-action h2 {
   font: 28px/36px "opensans-bold", sans-serif;
   color: #ebeeee;
   margin-bottom: 6px;
 }
+
 #call-to-action h2 a {
   color: inherit;
 }
+
 #call-to-action p {
   color: #636363;
   font-size: 17px;
 }
+
 /*#
 call-to-action .button {
 	color:#fff;
@@ -679,6 +746,7 @@ call-to-action .button {
   background: #ffffff;
   color: #0d0d0d;
 }
+
 #call-to-action p span {
   font-family: "opensans-semibold", sans-serif;
   color: #d8d8d8;
@@ -699,22 +767,27 @@ call-to-action .button {
   width: 100%;
   overflow: hidden;
 }
+
 #testimonials .text-container {
   padding-top: 96px;
   padding-bottom: 66px;
 }
+
 #testimonials h1 {
   font: 18px/24px "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #fff;
 }
+
 #testimonials h1 span {
   display: none;
 }
+
 #testimonials .header-col {
   padding-top: 9px;
 }
+
 #testimonials .header-col h1:before {
   font-family: "FontAwesome";
   content: "\f10d";
@@ -733,9 +806,11 @@ call-to-action .button {
   position: relative;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
 }
+
 #testimonials blockquote:before {
   content: none;
 }
+
 #testimonials blockquote p {
   font-family: "librebaskerville-italic", serif;
   padding: 0;
@@ -743,6 +818,7 @@ call-to-action .button {
   line-height: 48px;
   color: #fff;
 }
+
 #testimonials blockquote cite {
   display: block;
   font-size: 12px;
@@ -750,9 +826,11 @@ call-to-action .button {
   line-height: 18px;
   color: #fff;
 }
+
 #testimonials blockquote cite:before {
   content: "\2014 \0020";
 }
+
 #testimonials blockquote cite a,
 #testimonials blockquote cite a:visited {
   color: #8b9798;
@@ -767,6 +845,7 @@ call-to-action .button {
 .flexslider a:focus {
   outline: none;
 }
+
 .slides,
 .flex-control-nav,
 .flex-direction-nav {
@@ -774,6 +853,7 @@ call-to-action .button {
   padding: 0;
   list-style: none;
 }
+
 .slides li {
   margin: 0;
   padding: 0;
@@ -786,18 +866,21 @@ call-to-action .button {
   margin: 0;
   padding: 0;
 }
+
 .flexslider .slides {
   zoom: 1;
 }
-.flexslider .slides > li {
+
+.flexslider .slides>li {
   position: relative;
 }
 
 /* Hide the slides before the JS is loaded. Avoids image jumping */
-.flexslider .slides > li {
+.flexslider .slides>li {
   display: none;
   -webkit-backface-visibility: hidden;
 }
+
 /* Suggested container for slide animation setups. Can replace this with your own */
 .flex-container {
   zoom: 1;
@@ -810,6 +893,7 @@ call-to-action .button {
   content: " ";
   display: table;
 }
+
 .slides:after {
   clear: both;
 }
@@ -817,7 +901,7 @@ call-to-action .button {
 /* No JavaScript Fallback */
 /* If you are not using another script, such as Modernizr, make sure you
  * include js that eliminates this class on page load */
-.no-js .slides > li:first-child {
+.no-js .slides>li:first-child {
   display: block;
 }
 
@@ -825,7 +909,8 @@ call-to-action .button {
 .slides {
   zoom: 1;
 }
-.slides > li {
+
+.slides>li {
   /*margin-right: 5px; */
   overflow: hidden;
 }
@@ -837,12 +922,14 @@ call-to-action .button {
   bottom: -20px;
   text-align: left;
 }
+
 .flex-control-nav li {
   margin: 0 6px;
   display: inline-block;
   zoom: 1;
   *display: inline;
 }
+
 .flex-control-paging li a {
   width: 12px;
   height: 12px;
@@ -857,10 +944,12 @@ call-to-action .button {
   border-radius: 20px;
   box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.3);
 }
+
 .flex-control-paging li a:hover {
   background: #ccc;
   background: rgba(255, 255, 255, 0.7);
 }
+
 .flex-control-paging li a.flex-active {
   background: #fff;
   background: rgba(255, 255, 255, 0.9);
@@ -877,6 +966,7 @@ call-to-action .button {
   padding-bottom: 102px;
   color: #636363;
 }
+
 #contact .section-head {
   margin-bottom: 42px;
 }
@@ -885,6 +975,7 @@ call-to-action .button {
 #contact a:visited {
   color: #0762f9;
 }
+
 #contact a:hover,
 #contact a:focus {
   color: #fff;
@@ -897,9 +988,11 @@ call-to-action .button {
   color: #ebeeee;
   margin-bottom: 6px;
 }
+
 #contact h1 span {
   display: none;
 }
+
 #contact h1:before {
   font-family: "FontAwesome";
   content: "\f0e0";
@@ -916,10 +1009,12 @@ call-to-action .button {
   color: #ebeeee;
   margin-bottom: 6px;
 }
+
 #contact p.lead {
   font: 18px/36px "opensans-light", sans-serif;
   padding-right: 3%;
 }
+
 #contact .header-col {
   padding-top: 6px;
 }
@@ -928,6 +1023,7 @@ call-to-action .button {
 #contact form {
   margin-bottom: 30px;
 }
+
 #contact label {
   font: 15px/24px "opensans-bold", sans-serif;
   margin: 12px 0;
@@ -936,6 +1032,7 @@ call-to-action .button {
   float: left;
   width: 26%;
 }
+
 #contact input,
 #contact textarea,
 #contact select {
@@ -949,12 +1046,14 @@ call-to-action .button {
   line-height: 24px;
   width: 65%;
 }
+
 #contact input:focus,
 #contact textarea:focus,
 #contact select:focus {
   color: #fff;
   background-color: #0762f9;
 }
+
 #contact button.submit {
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -967,14 +1066,17 @@ call-to-action .button {
   border-radius: 0px;
   margin-left: 26%;
 }
+
 #contact button.submit:hover {
   color: #0d0d0d;
   background: #fff;
 }
+
 #contact span.required {
   color: #0762f9;
   font-size: 13px;
 }
+
 #message-warning,
 #message-success {
   display: none;
@@ -984,9 +1086,11 @@ call-to-action .button {
   width: 65%;
   margin-left: 26%;
 }
+
 #message-warning {
   color: #d72828;
 }
+
 #message-success {
   color: #0762f9;
 }
@@ -995,6 +1099,7 @@ call-to-action .button {
 #message-success i {
   margin-right: 10px;
 }
+
 #image-loader {
   display: none;
   position: relative;
@@ -1007,13 +1112,16 @@ call-to-action .button {
   margin-top: 12px;
   padding: 0;
 }
+
 #twitter li {
   margin: 6px 0px 12px 0;
   line-height: 30px;
 }
+
 #twitter li span {
   display: block;
 }
+
 #twitter li b a {
   font: 13px/36px "opensans-regular", Sans-serif;
   color: #474747 !important;
@@ -1037,6 +1145,7 @@ footer a,
 footer a:visited {
   color: #525252;
 }
+
 footer a:hover,
 footer a:focus {
   color: #fff;
@@ -1047,21 +1156,25 @@ footer .copyright {
   margin: 0;
   padding: 0;
 }
+
 footer .copyright li {
   display: inline-block;
   margin: 0;
   padding: 0;
   line-height: 24px;
 }
+
 .ie footer .copyright li {
   display: inline;
 }
+
 footer .copyright li:before {
   content: "\2022";
   padding-left: 10px;
   padding-right: 10px;
   color: #095153;
 }
+
 footer .copyright li:first-child:before {
   display: none;
 }
@@ -1072,6 +1185,7 @@ footer .social-links {
   padding: 0;
   font-size: 30px;
 }
+
 footer .social-links li {
   display: inline-block;
   margin: 0;
@@ -1091,6 +1205,7 @@ footer .social-links li:first-child {
   left: 50%;
   margin-left: -30px;
 }
+
 #go-top a {
   text-decoration: none;
   border: 0 none;
@@ -1110,6 +1225,7 @@ footer .social-links li:first-child {
   line-height: 60px;
   border-radius: 100%;
 }
+
 #go-top a:hover {
   background-color: #0f9095;
 }
@@ -1117,16 +1233,20 @@ footer .social-links li:first-child {
 .social .btn:first-child {
   margin-right: 30px;
 }
+
 .social .btn {
   padding-left: 30px;
   padding-right: 30px;
 }
+
 .social .btn i {
   margin-right: 15px;
 }
+
 .blog-btn {
   background-color: #1abc9c !important;
 }
+
 .github-btn {
   background-color: #34495e !important;
 }

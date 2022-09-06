@@ -1,9 +1,9 @@
 {
   "main": {
     "name": "Anveloper",
-    "description": "諦めなければできるという信念を持って勉強し続けているエンジニアです。",
+    "description": "諦めなければできる",
     "image": "profilepic.jpg",
-    "bio": "「諦めなければできる」という信念を持って開発を行っています。新しい言語や技術を勉強することが好きで、IT書籍を読むことが好きです。",
+    "bio": "「諦めなければできる」という信念を持ち、どのような課題やバグ、仕事でも解決することを楽しんでいます。IT書籍を読むことが好きで、その理由は自己啓発のためでもありますが、他の人との情報共有や力になりたいからです。",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "cx.twan65@gmail.com",
     "github": "https://github.com/twan65",
@@ -19,37 +19,54 @@
         "school": "大学",
         "degree": "Induk University Computer Electronics",
         "graduated": "2009/3〜2015/2",
-        "description": "コンピューター基礎知識、C言語、ロボットプログラミング、電子回路、ETC...について教えてもらいました。"
+        "description": "コンピューター知識、C言語、ロボットプログラミングも学びましたが、ハードウェア中心の電子回路、電気設計などについて学びました。"
       },
       {
         "school": "プログラミングスクール",
         "degree": "HTML、CSS、JAVA、Spring、RDBMS、ETC...",
         "graduated": "2016/3〜2017/1",
-        "description": "Java、Spring、HTML、CSS、Javascript、RDBMS、ETC...の基礎知識や実務で使われるスキルを教えてもらいました。"
+        "description": "Java、Spring、HTML、CSS、Javascript、RDBMS、ETC...の基礎知識や実務で使われるスキルを学びました。"
       },
       {
         "school": "CX勉強会",
         "degree": "オンライン・オフライン勉強会",
         "graduated": "2017/9〜現在",
-        "description": "CX（challenge X（未知数））という勉強会を創り、現在までメンバーたちと勉強をしています。主に日本語やIT知識などを共有しています。"
+        "description": "CX（challenge X（未知数））という勉強会を創り、個人プロジェクトやIT基礎知識を勉強しています。現在メンバーは3人くらいです。"
       }
     ],
     "work": [
       {
+        "title": "BLEリモコン操作アプリ",
+        "position": "PG",
+        "years": "2022/03/01 - 現在",
+        "process": "実装・単体",
+        "tech": "Dart, Flutter, BLEライブラリ（FLutter_blue_plus）、Git、Backlog",
+        "main_function": "BLE通信（Bluetooth Low Energy）",
+        "description": "リモコンとアプリ間にBLE通信を行い、アプリからリモコンを操作できるようなプロジェクトです。Flutterを用いてビジネスロジックの作成や簡単なUI修正を担当しています。なお、ブラウザ関連や入力フォーマットに関するUtilsを作成しました。",
+        "hard_point": "初めてであるアプリ開発はもちろんDartとFlutterも初めてでした。ビジネスロジック（Bloc）の場合はそれなりに書くことができましたが、UIのところがHTMLとはかなり違ったのでので最初は迷いました。でも、ドキュメントや仕事後のプライベートプロジェクトを行いながら、Flutterについて勉強しつつ仕事もしているので現在はJavaほどではないですが、書けるようになりました。",
+        "feel": "アプリ開発やDart、Flutterについての学びが多いと感じています。その中でもJavaとの違うところオーバーロードを提供していないなどシグネチャのところだったりアプリのデバック方法を学ぶことができてよかったです。"
+      },
+      {
         "title": "保険有料サービス（Web）",
-        "position": "PM/PL",
+        "position": "PL",
         "years": "2021/09/01 - 現在",
-        "process": "要件定義 - 基本設計 - 詳細設計 - 実装（基盤）",
-        "tech": "Java11、Spring、Javascript、Jquery、Tymeleaf、MySQL、Docker、Git、AWS",
-        "description": "PMとしてお客様の要件をヒアリングし、実現することだけを考えています。なお、楽に開発ができるように設計（基盤、URIなど）や基盤実装などを行っております。"
+        "process": "要件定義 - 基本設計 - 詳細設計 - 実装・単体",
+        "tech": "Java11、Spring、Junit、Javascript、Jquery、Tymeleaf、React、MySQL、Docker、AWS S3, AWS Cognito、Git、Backlog",
+        "main_function": "決済、トークン認証（アプリから暗号化）、Cognito認証、メール、バッチ",
+        "description": "保険会社の有料サービスであるWebアプリケーションの設計や開発を行なっています。有料会員の特典など扱っているので、決済やメールシステムが入っています。お客様の要件（ユーザーシステム、管理システム）をヒアリングし、実現することだけを考えています。プロジェクト初期段階では設計と共通のところの開発を行いましたが、現在はヒアリング、設計とコードレビューを行っております。",
+        "hard_point": "初めて決済システムを設計・開発を行いました。小さいバグでもシステムや会社そしてユーザーに致命的になる可能性が高いので、カード情報のバリデーションやセキュリティそして実際決済が起きるロジックに集中しました。カード会社のエンジニアさんとやりとりし、テスト環境を設けてローカル、ステージング以外にも全てのカード会社のテストデータをテストすることで、現在は安定定期に運用しています。",
+        "feel": "決済ロジックを実装・テストするときに多くのバグや想定していなかったカード会社によって入力情報が違うところを学ぶことができ、決済を扱うシステムの注意点（規約）なども学ぶことができてよかったです。なお、Spring Security設定（認証ロジック含む）、ロギング、Exceptionハンドラのような共通のところを開発することによって全体層を学ぶことができました。"
       },
       {
         "title": "大手コンビニのキャンペーンサイト",
         "position": "SE",
         "years": "2021/06/01 - 2021/07/30",
         "process": "詳細設計 - 実装・単体",
-        "tech": "Java11、Spring、Javascript、Jquery、Tymeleaf、MySQL、Docker、Git、AWS",
-        "description": "携帯上のブラウザで動作する画面、バックエンドロジックを開発しました。Junitを使った単体テストを細かくしたので、結合テストでのバグはほぼなかったです。"
+        "tech": "Java11、Spring、Junit、Javascript、Jquery、Tymeleaf、MySQL、Docker、AWS、Git、Backlog",
+        "main_function": "トークン認証（アプリから暗号化）",
+        "description": "アプリから遷移してくるランキングシステム（Web）のバックエンドロジックを開発しました。ランキング計算ロジックと画面、トークン認証の複合化のロジックを開発しました。全てのJavaコードはJunitを使った単体テストを細かくしたので、結合テストでのバグはほぼなかったです。",
+        "hard_point": "トークン認証を行うため、どの暗号化を使うか検討の検討が必要でした。決まってからはWeb側の複合化ロジックを実装することになりましたが、暗号化されたトークンが渡されたとき「+」のような想定していない文字が入っていたりしてうまく複合化ができませんでしたが、ドキュメントやBase64とBase64Urlの違いが知ることができました。",
+        "feel": "暗号化・複合化について学ぶことができ、"
       },
       {
         "title": "保険管理システム",
@@ -57,7 +74,10 @@
         "years": "2021/02/01 - 2021/05/31",
         "process": "要件定義 - 基本設計 - 実装・単体",
         "tech": "Java8、Spring、Typescript、React、MySQL、Grpc、Git、AWS",
-        "description": "フロントエンドの開発サポート（レビュー）とバックエンドの基盤設計、基盤開発（Logging、Securityなど）を行いました。"
+        "main_function": "main function",
+        "description": "フロントエンドの開発サポート（レビュー）とバックエンドの基盤設計、基盤開発（Logging、Securityなど）を行いました。",
+        "hard_point": "",
+        "feel": ""
       },
       {
         "title": "日本生活衛生関連管理システム",
@@ -65,7 +85,10 @@
         "years": "2020/11/01 - 2021/01/31",
         "process": "詳細設計 - 実装・単体 - 結合テスト",
         "tech": "Java11、Spring、Javascript、Jquery、Tymeleaf、MySQL、Docker、Git、AWS",
-        "description": "管理サイトの詳細設計から画面やサーバーサイド、バッチの開発を行いました。Doma2を使いDBとの連動をしました。"
+        "main_function": "main function",
+        "description": "管理サイトの詳細設計から画面やサーバーサイド、バッチの開発を行いました。Doma2を使いDBとの連動をしました。",
+        "hard_point": "",
+        "feel": ""
       },
       {
         "title": "ファンクラブ動画配信サービス",
@@ -73,7 +96,10 @@
         "years": "2020/03/01 - 2020/08/30",
         "process": "調査分析 - 要件定義 - 基本設計",
         "tech": "cacoo",
-        "description": "ファンクラブ動画配信サービスのフロントエンド技術分析から技術選定、要件定義、基本設計を行いました。"
+        "main_function": "main function",
+        "description": "ファンクラブ動画配信サービスのフロントエンド技術分析から技術選定、要件定義、基本設計を行いました。",
+        "hard_point": "",
+        "feel": ""
       },
       {
         "title": "メンバーコミュニティサイト",
@@ -81,7 +107,10 @@
         "years": "2019/11/01 - 2020/02/29",
         "process": "調査分析 - 実装・単体 - 結合テスト",
         "tech": "Java11、Spring、Javascript、Jquery、Tymeleaf、MySQL、Docker、Git、AWS",
-        "description": "管理サイトのサーバーサイド開発（MPA）とフロントエンドの共通モジュールの設計とJavascript、Jqueryで開発を行いました。"
+        "main_function": "main function",
+        "description": "管理サイトのサーバーサイド開発（MPA）とフロントエンドの共通モジュールの設計とJavascript、Jqueryで開発を行いました。",
+        "hard_point": "",
+        "feel": ""
       },
       {
         "title": "特許庁向け業務システム",
@@ -89,7 +118,10 @@
         "years": "2019/04/01 - 2019/09/30",
         "process": "実装・単体",
         "tech": "Java8、Spring、VISC、MySQL",
-        "description": "VISCというツールを使い、バックエンド（Java）のビジネスロジックを開発しました。特にJunitを使った単体テストをきっちりとしました。"
+        "main_function": "main function",
+        "description": "VISCというツールを使い、バックエンド（Java）のビジネスロジックを開発しました。特にJunitを使った単体テストをきっちりとしました。",
+        "hard_point": "",
+        "feel": ""
       },
       {
         "title": "地方県庁警察庁新システム",
@@ -97,15 +129,10 @@
         "years": "2017/02/01 - 2019/03/01",
         "process": "詳細設計 - 実装・単体 - 結合テスト - 保守・運用",
         "tech": "Java8、Spring、Typescript、React、Oracle、PL/SQL、Git",
-        "description": "フルスタックエンジニアとしてTypescript+Reactでフロントエンドを開発し、サーバーサイドのビジネスロジックを開発しました。この時はレビュアーとして活動してPL/SQLを使ってSQLパフォーマンス向上に力を入れていました。"
-      },
-      {
-        "title": "無人ホテル管理システム",
-        "position": "PG",
-        "years": "2016/03/01 - 2017/01/01",
-        "process": "要件定義 - 基本設計 - 実装・単体 - 結合テスト",
-        "tech": "Java、Spring、Javascript、JSP、MySQL、Git",
-        "description": "プログラミングスクールでの初めてのプロジェクトであり、IT知識やJava、Springなどどうすれば正常にパフォーマンスよく動くのかを考えました。スクールでのプロジェクトなので品質はよくなかったかもしれないが、このときこそが今の自分があるというプロジェクトです。"
+        "main_function": "main function",
+        "description": "フルスタックエンジニアとしてTypescript+Reactでフロントエンドを開発し、サーバーサイドのビジネスロジックを開発しました。この時はレビュアーとして活動してPL/SQLを使ってSQLパフォーマンス向上に力を入れていました。",
+        "hard_point": "",
+        "feel": ""
       }
     ],
     "skills": [
