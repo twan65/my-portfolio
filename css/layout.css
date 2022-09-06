@@ -306,11 +306,11 @@ ul#nav li.current a {
   padding-bottom: 6px;
 }
 
-#resume .division {
+/* #resume .division {
   margin-bottom: 48px;
   padding-bottom: 5px;
   border-bottom: 1px solid #e8e8e8;
-}
+} */
 
 #resume h3 {
   font: 25px/30px "opensans-bold", sans-serif;
