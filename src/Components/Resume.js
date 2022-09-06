@@ -33,12 +33,16 @@ class Resume extends Component {
         <div key={work.title}>
           <h3>{work.title}</h3>
           <p className="info">
+            <h5>ポジション<span>&bull;</span>期間</h5>
             {work.position}
             <span>&bull;</span> <em className="date">{work.years}</em>
           </p>
-          <p className="info">{work.process}</p>
-          <p className="info">{work.tech}</p>
-          <p>{work.description}</p>
+          <p className="info"><h5>担当工程</h5>{work.process}</p>
+          <p className="info"><h5>使用技術</h5>{work.tech}</p>
+          <p className="info"><h5>主な機能</h5>{work.main_function}</p>
+          <p><h5>業務内容</h5>{work.description}</p>
+          <p><h5>課題・問題</h5>{work.hard_point}</p>
+          <p><h5>学び</h5>{work.feel}</p>
         </div>
       );
     });
@@ -78,7 +82,7 @@ class Resume extends Component {
           <div className="row work">
             <div className="three columns header-col">
               <h1>
-                <span>Work</span>
+                <span>Work({this.props.data.work.length})</span>
               </h1>
             </div>
 
