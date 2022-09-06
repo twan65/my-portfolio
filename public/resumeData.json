@@ -2,11 +2,8 @@
   "main": {
     "name": "Anveloper",
     "description": "諦めなければできる",
-    "image": "/profilepic.jpg",
-    "bio": [
-      "「諦めなければできる」という信念を持ち、どのような課題やバグ、仕事でも解決することを楽しんでいます。",
-      "IT書籍を読むことが好きで、その理由は自己啓発のためでもありますが、他の人との情報共有や力になりたいからです。"
-    ],
+    "image": "profilepic.jpg",
+    "bio": "「諦めなければできる」という信念を持ち、どのような課題やバグ、仕事でも解決することを楽しんでいます。IT書籍を読むことが好きで、その理由は自己啓発のためでもありますが、他の人との情報共有や力になりたいからです。",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "cx.twan65@gmail.com",
     "github": "https://github.com/twan65",
