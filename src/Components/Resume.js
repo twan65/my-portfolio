@@ -33,28 +33,22 @@ class Resume extends Component {
         <div key={work.title} className="division">
           <h3>{work.title}</h3>
 
-            <h5>ポジション<span>&bull;</span>期間</h5>
             <p className="info">
               {work.position}
               <span>&bull;</span> <em className="date">{work.years}</em>
             </p>
-            <h5>担当工程</h5>
+            
             <p className="info">{work.process}</p>
 
-            <h5>使用技術</h5>
             <p className="info">{work.tech}</p>
 
-            <h5>主な機能</h5>
             <p className="info">{work.main_function}</p>
 
-            <h5>業務内容</h5>
-            <p>{work.description}</p>
+            <p className="info">{work.description}</p>
 
-            <h5>課題・問題</h5>
-            <p>{work.hard_point}</p>
+            <p className="info">{work.hard_point}</p>
 
-            <h5>学び</h5>
-            <p>{work.feel}</p>
+            <p className="info">{work.feel}</p>
         </div>
       );
     });
